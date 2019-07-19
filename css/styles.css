@@ -1,13 +1,23 @@
 .logo {
     text-align: center;
-    background-image: url(../images/backgrounds/h_img.jpg)
+    background-image: url(../images/backgrounds/h_img.jpg);
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: aliceblue;
+
 }
 .about {
     text-align: center;
 }
 .service {
     text-align: center;
-    background-image: url(../images/backgrounds/c_image.jpg)
+    background-image: url(../images/backgrounds/s_image.jpg);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: aliceblue;
+}
+.activities {
+    text-align: center;
 }
 
 
