@@ -5,6 +5,10 @@
 .about {
     text-align: center;
 }
+.service {
+    text-align: center;
+    background-image: url(../images/backgrounds/c_image.jpg)
+}
 
 
 
