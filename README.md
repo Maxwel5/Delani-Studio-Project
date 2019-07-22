@@ -7,10 +7,10 @@ Maxwel Wafula
 The above named is a student at Moringa school taking <em>Software Development</em> with an aspiration of becoming a skilled programmer in the technical sector to achieve attractive websites.
 
 ## Technologies Used
-*HTML*
-*CSS*
-*Bootstrap*
-*JQuery*
+/* *HTML*
+/* *CSS*
+/* *Bootstrap*
+/* *JQuery*
 
 ## Set up Instructions
 * Open terminal(Ctrl+Alt+T) which is a command line for effective coding
