@@ -14,7 +14,7 @@ The above named is a student at Moringa school taking <em>Software Development</
 
 ## Set up Instructions
 * Open terminal(Ctrl+Alt+T) which is a command line for effective coding
-* Link:
+* Link: https://github.com/Maxwel5/Delani-Studio-Project.git
 * Available form for collecting user data and the feedback to the studio as well as booking services of interet
 * Code: Enables the user to toggle and access hidden information uned what we do as well as hovering around to          find out more. This comprises both the bussiness logic and the user interface
 
