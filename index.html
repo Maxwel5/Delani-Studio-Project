@@ -3,15 +3,18 @@
 <head>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
     <title>Delani Studio Project</title>
 </head>
 <body>
+    <div class="container">
     <br>
     <div class="logo"><br><br><br>
-        <img src="images/logo/logo.png">
-        <h2>WELCOME<br><br>TO DELANI STUDIO</h2>
+        <img src="images/logo/logo.png"><br>
+        <h2>WELCOME<br>TO DELANI STUDIO</h2>
         <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p><br>
-        <br>
+        <br><br>
         <img src="images/mouse_click.png">
     </div>
     <div class="about">
@@ -29,9 +32,8 @@
         <h3><strong>WHAT WE DO</strong></h3>
         <div class="row">
             <div class="col-md-4">
-                <img src="images/services_icons/design_icon.png">
-                <p>DESIGN</p>
-                <p>Our design practice offers a full range of services including brand 
+                <img id="offer1" src="images/services_icons/design_icon.png"><br>DESIGN
+                <p id="offer-p1">Our design practice offers a full range of services including brand 
                    strategy, interaction and visual design and user experience testing.
                    Throughout your project, our designers create and implement visual 
                    design and workflows, solicit user feedback and work with you to 
@@ -39,17 +41,16 @@
                 </p>
             </div>
             <div class="col-md-4">
-                <img src="images/services_icons/dev_icon.png">
-                <p>DEVELOPMENT</p>
-                <p>All engineers are fluent in the latest enterprise, mobile and web 
+                <img id="offer2" src="images/services_icons/dev_icon.png"><br>DEVELOPMENT
+                <p id="offer-p2">All engineers are fluent in the latest enterprise, mobile and web 
                    development technologies.
                    They collaborate with your team to write, and improve code on a 
                    daily basis, using proven practices such as test-driven development 
                    and pair programming.</p>
             </div>
             <div class="col-md-4">
-                <img src="images/services_icons/product_icon.png"><br>PRODUCT MANAGEMENT
-                <p>Planning and development is iterative. Because we are constantly coding
+                <img id="offer3"  src="images/services_icons/product_icon.png"><br>PRODUCT MANAGEMENT
+                <p id="offer-p3">Planning and development is iterative. Because we are constantly coding
                    and testing, the products we build are always ready to go live. 
                    This iterative process allows for changes as business requirements 
                    evolve.</p>
@@ -57,26 +58,50 @@
         </div>
     </div>
     <div class="container">
-    <div class="row" col-md-12>
-        <h3 class="text-center">PORTFOLIO</h3>
-        <div class="row">
-                <img class="col-md-3" src="images/portfolio/work4.jpg">
+    <div class="row max col-md-12">
+        <h3 class="text-center1"><strong>PORTFOLIO</strong></h3>
+        <div class="row d-inline-flex flex-wrap justify-content-space-around position-relative">
+                <div class="col-md-3">
+                    <img id="work4img" src="images/portfolio/work4.jpg" class="img-fluid">
+                    <div class ="position-absolute" id="work4">work4</div>
+                </div>
         
-                <img class="col-md-3" src="images/portfolio/work3.jpg">
+                <div class="col-md-3">
+                    <img id="work3img" src="images/portfolio/work3.jpg" class="img-fluid">
+                    <div class ="position-absolute" id="work3">work3</div>
+                </div>
             
-                <img class="col-md-3" src="images/portfolio/work2.jpg">
+                <div class="col-md-3">
+                    <img id="work2img" src="images/portfolio/work2.jpg" class="img-fluid">
+                    <div class ="position-absolute" id="work2">work2</div>
+                </div>
             
-                <img class="col-md-3" src="images/portfolio/work1.jpg">
+                <div class="col-md-3">
+                    <img id="work1img" src="images/portfolio/work1.jpg" class="img-fluid">
+                    <div class ="position-absolute" id="work1">work1</div>
+                </div>
         </div>
         <br>
         <div class="row">
-                <img class="col-md-3" src="images/portfolio/work5.jpg">
+                <div class="col-md-3">
+                    <img id="work5img" src="images/portfolio/work5.jpg" class="img-fluid">
+                    <div class ="position-absolute" id="work5">work5</div>
+                </div>
                     
-                <img class="col-md-3" src="images/portfolio/work6.jpg">
+                <div class="col-md-3">
+                    <img id="work6img" src="images/portfolio/work6.jpg" class="img-fluid">
+                    <div class ="position-absolute" id="work6">work6</div>
+                </div>
                     
-                <img class="col-md-3" src="images/portfolio/work7.jpg">
+                <div class="col-md-3">
+                    <img id="work7img" src="images/portfolio/work7.jpg" class="img-fluid">
+                    <div class ="position-absolute" id="work7">work7</div>
+                </div>
                     
-                <img class="col-md-3" src="images/portfolio/work8.jpg">
+                <div class="col-md-3">
+                    <img id="work8img" src="images/portfolio/work8.jpg" class="img-fluid">
+                    <div class ="position-absolute" id="work8">work8</div>
+                </div>
         </div>
     </div>
     </div>
@@ -94,7 +119,7 @@
             </div>
             </div>
             <br><br>
-            <textarea class="form-control" id="transparent" rows="8" placeholder="Your name here..."></textarea>
+            <textarea class="form-control text-white" id="transparent" rows="8" placeholder="Your name here..."></textarea>
         </form>
     </div>
     <br><br>
@@ -114,6 +139,7 @@
     <br><br>
     <div class="footer">
         <p class="text-center">DELANI STUDIO<br>2019</p>
+    </div>
     </div>
 </body>
 </html>
