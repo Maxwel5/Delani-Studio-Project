@@ -28,9 +28,11 @@ $(document).ready(function() {
 $(document).ready(function() {
     $("#work4img").mouseenter(function() {
         $("#work4").show();
+        $("#work4").addClass("enlarge");
         $(this).addClass("fading");
     }).mouseout(function () {
         $("#work4").hide();
+        $("#work4").removeClass("enlarge");
         $(this).removeClass("fading");
     });
 });
@@ -38,9 +40,11 @@ $(document).ready(function() {
 $(document).ready(function() {
     $("#work3img").mouseenter(function() {
         $("#work3").show();
+        $("#work3").addClass("enlarge");
         $(this).addClass("fading");
     }).mouseout(function () {
         $("#work3").hide();
+        $("#work3").removeClass("enlarge");
         $(this).removeClass("fading");
     });
 });
@@ -48,9 +52,11 @@ $(document).ready(function() {
 $(document).ready(function() {
     $("#work2img").mouseenter(function() {
         $("#work2").show();
+        $("#work2").addClass("enlarge");
         $(this).addClass("fading");
     }).mouseout(function () {
         $("#work2").hide();
+        $("#work2").removeClass("enlarge");
         $(this).removeClass("fading");
     });
 });
@@ -58,9 +64,11 @@ $(document).ready(function() {
 $(document).ready(function() {
     $("#work1img").mouseenter(function() {
         $("#work1").show();
+        $("#work1").addClass("enlarge");
         $(this).addClass("fading");
     }).mouseout(function () {
         $("#work1").hide();
+        $("#work1").removeClass("enlarge");
         $(this).removeClass("fading");
     });
 });
@@ -80,9 +88,11 @@ $(document).ready(function() {
 $(document).ready(function() {
     $("#work6img").mouseenter(function() {
         $("#work6").show();
+        $("#work6").addClass("enlarge");
         $(this).addClass("fading");
     }).mouseout(function () {
         $("#work6").hide();
+        $("#work6").removeClass("enlarge");
         $(this).removeClass("fading");
     });
 });
@@ -90,9 +100,11 @@ $(document).ready(function() {
 $(document).ready(function() {
     $("#work7img").mouseenter(function() {
         $("#work7").show();
+        $("#work7").addClass("enlarge");
         $(this).addClass("fading");
     }).mouseout(function () {
         $("#work7").hide();
+        $("#work7").removeClass("enlarge");
         $(this).removeClass("fading");
     });
 });
@@ -100,9 +112,11 @@ $(document).ready(function() {
 $(document).ready(function() {
     $("#work8img").mouseenter(function() {
         $("#work8").show();
+        $("#work8").addClass("enlarge");
         $(this).addClass("fading");
     }).mouseout(function () {
         $("#work8").hide();
+        $("#work8").removeClass("enlarge");
         $(this).removeClass("fading");
     });
 });

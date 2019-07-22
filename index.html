@@ -109,17 +109,19 @@
     <div class="contact">
         <h3 class="text-center"><strong>CONTACT US</strong></h3>
 
-        <form name="form1" id="form11" class="form-group">
+        <form name="form1" id="form11" class="form-group" onsubmit="contact()">
             <div class="row">
             <div class="col">
-            <input type="name" class="form-control" id="transparent"  placeholder="Name...">
+            <input type="name" class="form-control" id="transparent"  placeholder="Name..." name="name">
             </div>
             <div class="col">
-            <input type="email" class="form-control" id="transparent" placeholder="Email..."  >
+            <input type="email" class="form-control" id="transparent" placeholder="Email..." name="email">
             </div>
             </div>
             <br><br>
-            <textarea class="form-control text-white" id="transparent" rows="8" placeholder="Your name here..."></textarea>
+            <textarea class="form-control text-white" id="transparent" rows="8" placeholder="Your name here..." name="message"></textarea>
+            <br>
+            <button class="text-white" type="submit" id="transparent">Submit</button>
         </form>
     </div>
     <br><br>

@@ -6,7 +6,6 @@
     align-content: center;
     padding-top: 50px; 
     color: #ffffff;
-
 }
 .about {
     text-align: center;
@@ -74,11 +73,14 @@ textarea {
 #offer-p1, #offer-p2, #offer-p3 {
     display: none;
 }
-#work4{
+#work4, #work3, #work2, #work1, #work5, #work6, #work7, #work8 {
     top: 30%;
     left:30%;
     background-color:#ffffff;
 }
-.fading{
+.fading {
     opacity:0.5;
+}
+.enlarge {
+    font-size: 40px;
 }
