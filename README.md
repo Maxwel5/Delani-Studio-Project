@@ -7,14 +7,14 @@ Maxwel Wafula
 The above named is a student at Moringa school taking <em>Software Development</em> with an aspiration of becoming a skilled programmer in the technical sector to achieve attractive websites.
 
 ## Technologies Used
-*HTML*
-*CSS*
-*Bootstrap*
-*JQuery*
+ *HTML*
+ *CSS*
+ *Bootstrap*
+ *JQuery*
 
 ## Set up Instructions
 * Open terminal(Ctrl+Alt+T) which is a command line for effective coding
-* Link:
+* Link: https://maxwel5.github.io/Delani-Studio-Project/
 * Available form for collecting user data and the feedback to the studio as well as booking services of interet
 * Code: Enables the user to toggle and access hidden information uned what we do as well as hovering around to          find out more. This comprises both the bussiness logic and the user interface
 
